@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="#CCCCFF"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/btnadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#9999ff"
+        android:text="Adan"
+        android:textSize="22dp" />
+
+
+    <TextView
+        android:id="@+id/tvAdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnadan"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:background="#00FF80"
+        android:text="Maghrib"
+        android:textSize="12dp" />
+
+
+</RelativeLayout>
